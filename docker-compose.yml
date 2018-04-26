@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  discord.bdo.guild.bot:
+    image: discordbdoguildbot
+    build:
+      context: .
+      dockerfile: Discord.Bdo.Guild.Bot/Dockerfile

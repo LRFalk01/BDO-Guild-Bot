@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# do not check in the db into GitHub
+BotData.db
+
 # User-specific files
 *.suo
 *.user
